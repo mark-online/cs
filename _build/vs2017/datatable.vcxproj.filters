@@ -1,0 +1,1154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\template">
+      <UniqueIdentifier>{4d400f79-af9e-4e7c-b670-8b65024b4e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\datatable\AccessoryTable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\datatable\DataTableFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\datatable\DataTablePCH.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\datatable\EquipTable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\accessory_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\anchor_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\arena_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\building_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\device_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\element_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\entity_path_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\equip_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\event_trigger_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\exp_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\faction_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\fragment_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\glider_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\harness_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\harvest_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\help_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\l10n_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\npc_formation_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\npc_sell_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\npc_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\position_spawn_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\property_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\quest_activation_mission_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\quest_item_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\quest_kill_mission_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\quest_obtain_mission_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\quest_probe_mission_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\quest_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\quest_transport_mission_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\random_dungeon_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\recipe_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\region_coordinates.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\region_spawn_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\region_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\reprocess_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\resources_production_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\shared_types.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\treasure_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\vehicle_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\world_map_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\npc_buy_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\npc_talking_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\quest_contents_mission_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\dominion_region_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\world_drop_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\select_recipe_production_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\building_guard_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\building_guard_sell_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\world_event_mission_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\world_event_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\world_event_invader_spawn_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\world_event_mission_spawn_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\devildom_gate_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\character_status_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\datatable\CharacterStatusTable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\player_active_skill_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\player_passive_skill_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\skill_effect_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\npc_active_skill_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\so_active_skill_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\item_active_skill_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\action_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\item_option_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\item_suffix_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\item_drop_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\world_drop_suffix_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\gem_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\character_default_skill_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\character_default_item_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\achievement_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\character_title_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\guild_level_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\guild_skill_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\function_table.cxx">
+      <Filter>include\template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\datatable\SkillTemplate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\datatable\AccessoryTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\AnchorTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\ArenaTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\BuildingTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\DeviceTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\ElementTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\EntityPathTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\EquipTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\EventTriggerTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\ExpTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\FactionTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\FragmentTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\GliderTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\HarnessTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\HarvestTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\HelpTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\L10nTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\NpcFormationTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\NpcSellTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\NpcTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\PositionSpawnTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\QuestActivationTableMissionImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\QuestItemTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\QuestKillMissionTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\QuestObtainMissionTable.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\QuestObtainMissionTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\QuestProbeMissionTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\QuestTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\QuestTransportMissionTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\RandomDungeonTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\RecipeTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\RegionCoordinatesImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\RegionSpawnTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\RegionTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\ReprocessTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\ResourcesProductionTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\TreasureTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\VehicleTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\WorldMapTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\AccessoryTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\AnchorTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\AnchorTemplate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ArenaTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\BuildingTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\DataTableFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\DeviceTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\EffectApplyInfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ElementTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\EntityPathTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\EquipTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\EventTriggerTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ExpTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\FactionTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\FragmentTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\GliderTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\HarnessTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\HarvestTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\HelpTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\L10nTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\NpcFormationTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\NpcSellTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\NpcTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\PositionSpawnTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\PropertyTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\QuestActivationMissionTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\QuestItemTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\QuestKillMissionTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\QuestProbeMissionTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\QuestTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\QuestTransportMissionTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\RandomDungeonTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\RecipeTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\RegionCoordinates.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\RegionSpawnTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\RegionTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ReprocessTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ResourcesProductionTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\SkillTemplate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\SpawnTemplate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\TreasureTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\VehicleTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\WorldMapTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\accessory_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\anchor_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\arena_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\building_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\device_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\element_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\entity_path_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\equip_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\event_trigger_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\exp_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\faction_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\fragment_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\glider_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\harness_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\harvest_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\help_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\l10n_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\npc_formation_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\npc_sell_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\npc_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\position_spawn_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\property_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\quest_activation_mission_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\quest_item_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\quest_kill_mission_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\quest_obtain_mission_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\quest_probe_mission_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\quest_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\quest_transport_mission_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\random_dungeon_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\recipe_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\region_coordinates.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\region_spawn_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\region_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\reprocess_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\resources_production_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\shared_types.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\treasure_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\vehicle_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\world_map_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\xml_schema.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\NpcBuyTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\npc_buy_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\NpcBuyTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\npc_talking_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\quest_contents_mission_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\QuestContentsMissionTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\QuestContentsMissionTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\dominion_region_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\DominionRegionTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\DominionRegionTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\world_drop_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\WorldDropTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\WorldDropTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\select_recipe_production_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\SelectRecipeProductionTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\SelectRecipeProductionTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\building_guard_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\BuildingGuardTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\BuildingGuardTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\BuildingGuardSellTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\building_guard_sell_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\BuildingGuardSellTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\world_event_mission_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\world_event_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\WorldEventTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\WorldEventMissionTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\WorldEventTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\WorldEventMissionTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\WorldEventMissionSpawnTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\WorldEventMissionSpawnTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\WorldEventInvaderSpawnTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\WorldEventInvaderSpawnTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\world_event_invader_spawn_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\world_event_mission_spawn_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\DevildomGateTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\devildom_gate_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\DevildomGateTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\character_status_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\CharacterStatusTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\CharacterStatusTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\PlayerActiveSkillTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\PlayerPassiveSkillTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\player_active_skill_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\player_passive_skill_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\skill_effect_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\PlayerActiveSkillTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\PlayerPassiveSkillTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\SkillEffectTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\SkillEffectTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\NpcActiveSkillTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\npc_active_skill_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\NpcActiveSkillTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\so_active_skill_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\SOActiveSkillTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\SOActiveSkillTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\SkillCommonInfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\item_active_skill_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ItemActiveSkillTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\ItemActiveSkillTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\action_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ActionTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\ActionTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ApplyItemStatusFunction.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ItemSuffixTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ItemOptionTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\ItemSuffixTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\ItemOptionTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\item_option_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\item_suffix_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\PropertyTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ItemDropTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\ItemDropTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\item_drop_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\world_drop_suffix_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\WorldDropSuffixTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\WorldDropSuffixTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\gem_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\GemTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\GemTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\DataTablePCH.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\CharacterDefaultSkillTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\CharacterDefaultItemTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\character_default_item_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\character_default_skill_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\CharacterDefaultSkillTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\CharacterDefaultItemTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\AchievementTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\AchievementTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\achievement_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\character_title_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\guild_level_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\guild_skill_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\GuildLevelTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\GuildSkillTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\CharacterTitleTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\CharacterTitleTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\function_table.hxx">
+      <Filter>include\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\FunctionTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\FunctionTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\GuildSkillTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\GuildLevelTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\NpcTalkingTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datatable\NpcTalkingTableImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\gideon\cs\datatable\template\accessory_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\anchor_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\arena_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\building_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\device_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\element_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\entity_path_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\equip_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\event_trigger_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\exp_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\faction_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\fragment_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\glider_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\harness_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\harvest_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\help_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\l10n_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\npc_formation_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\npc_sell_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\npc_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\position_spawn_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\property_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\quest_activation_mission_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\quest_item_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\quest_kill_mission_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\quest_obtain_mission_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\quest_probe_mission_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\quest_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\quest_transport_mission_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\random_dungeon_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\recipe_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\region_coordinates.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\region_spawn_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\region_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\reprocess_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\resources_production_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\shared_types.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\treasure_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\vehicle_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\world_map_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\npc_buy_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\npc_talking_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\quest_contents_mission_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\dominion_region_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\world_drop_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\select_recipe_production_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\building_guard_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\building_guard_sell_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\world_event_mission_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\world_event_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\world_event_invader_spawn_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\world_event_mission_spawn_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\devildom_gate_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\character_status_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\player_active_skill_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\player_passive_skill_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\skill_effect_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\npc_active_skill_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\so_active_skill_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\item_active_skill_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\action_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\item_option_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\item_suffix_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\item_drop_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\world_drop_suffix_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\gem_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\character_default_item_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\character_default_skill_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\achievement_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\guild_skill_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\character_title_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\guild_level_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+    <None Include="..\..\include\gideon\cs\datatable\template\function_table.ixx">
+      <Filter>include\template</Filter>
+    </None>
+  </ItemGroup>
+</Project>

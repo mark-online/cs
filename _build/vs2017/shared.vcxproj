@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="NoCompile|Win32">
+      <Configuration>NoCompile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>_shared</ProjectName>
+    <ProjectGuid>{27FD1E4F-D1A7-463F-A3C5-6032F3D645DB}</ProjectGuid>
+    <RootNamespace>shared</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='NoCompile|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='NoCompile|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='NoCompile|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='NoCompile|Win32'">$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\gideon\cs\Common.h" />
+    <ClInclude Include="..\..\include\gideon\cs\common\Macros.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\AccessoryInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\AccountId.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\AccountInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\AchievementInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ActionBar.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\AnchorInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\AppearanceInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ArenaInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\AuctionInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\BankAccountInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\BindRecallInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\BuddyInfos.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\BuildingGuardInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\BuildingInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CastInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\Certificate.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ChannelInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ChaoInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CharacterClass.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CharacterInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CharacterTitleInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\Chatting.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CheatInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\Code.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CombatRatingInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CooldownInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\Coordinate.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CraftInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CreateCharacterInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CreatureInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CreatureStates.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CreatureStatusInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\DeviceInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\DominionInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\DuelInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\DungeonInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\EffectInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\EffectStatusInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ElementInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\EmotionInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\EntityInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\EntityPathInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\EntityStatusInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\EnvironmentInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\EquipmentInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ErrorCode.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ExpelReason.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\FactionInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\FragmentInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\FunctionItemInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\GliderInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\GraveStoneInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\GuildInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\GuildInventoryInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\GuildLogInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\HarvestInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\InventoryInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ItemDropInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ItemEffectInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ItemInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ItemScript.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\GemInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\LevelInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\LootInvenItemInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\MailInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\MercenaryInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\MesmerizationInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\Money.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\MonsterInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\NpcInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\NpcTalkingInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ObeliskInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ObjectInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\PartyInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\PlayerActionState.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\PlayerInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\PlayerStatusInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\QuestInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\Rate.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\RecipeInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\RegionInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ServerInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ServerType.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\SexType.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\SkillCastableEquipItemTypeInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\SkillEffectInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\SkillInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\StaticObjectSkillInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\StaticObjectStatusInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\StatusInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\Time.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\TradeInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\TreasureInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\UnionEntityInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\UnionGraveStoneName.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\UserId.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\UserInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\VaultInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\VehicleInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\WorldEventInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\WorldInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ZoneInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\AccountRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\CommunityRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\PlayerRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\detail\LoginRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\AchievementRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\ActionBarRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\AnchorRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\ArenaRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\AuctionRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\BotCommandRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\BuildingRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\CastingRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\ChaoRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\CharacterTitleRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\CheatRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\CreatureReviveRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\CreatureSocialRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\EntityStatusRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\DeviceRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\DungeonRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\EffectRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\EmotionRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\EntityInterestAreaRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\EntityMovementRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\EntityQueryRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\EntityActionRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\FieldDuelRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\GamePlayRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\GliderRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\GraveStoneRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\GuildRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\HarvestRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\InventoryRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\ItemRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\MailRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\NpcRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\OutsideInventoryRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\PartyRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\PropertyRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\QuestRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\RewardRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\SkillRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\StatsRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\TeleportRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\TradeRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\TreasureRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\VehicleRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\WorldEventRpc.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

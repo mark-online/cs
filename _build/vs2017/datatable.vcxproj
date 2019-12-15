@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugStaticMt|Win32">
+      <Configuration>DebugStaticMt</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugStaticMt|x64">
+      <Configuration>DebugStaticMt</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseStaticMt|Win32">
+      <Configuration>ReleaseStaticMt</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseStaticMt|x64">
+      <Configuration>ReleaseStaticMt</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{84A91678-0593-4917-9EEC-D00EDE15D44F}</ProjectGuid>
+    <RootNamespace>datatable</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="staticmtrelease.props" />
+    <Import Project="common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="staticmtdebug.props" />
+    <Import Project="common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="staticmtrelease.props" />
+    <Import Project="common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="staticmtdebug.props" />
+    <Import Project="common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="debug.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../obj/$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">../../obj/$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EmbedManifest>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../obj/$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">../../obj/$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'">../../lib/$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'">../../obj/$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'">../../lib/$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'">../../obj/$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'">../../lib/$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'">../../obj/$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'">../../lib/$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'">../../obj/$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../vendorsrc;../../vendorsrc/xsd/libxsd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SNE_DLL;GIDEON_CS_DLL;GIDEON_CS_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DataTablePCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xerces-c_3D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SNE_DEPENDENT_DIR)/xerces-c/lib/$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>../../Lib/$(Platform)/$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../vendorsrc;../../vendorsrc/xsd/libxsd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SNE_DLL;GIDEON_CS_DLL;GIDEON_CS_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DataTablePCH.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xerces-c_3D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SNE_DEPENDENT_DIR)/xerces-c/lib/$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>../../Lib/$(Platform)/$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../vendorsrc;../../vendorsrc/xsd/libxsd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SNE_DLL;GIDEON_CS_DLL;GIDEON_CS_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DataTablePCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xerces-c_3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SNE_DEPENDENT_DIR)/xerces-c/lib/$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>../../Lib/$(Platform)/$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../vendorsrc;../../vendorsrc/xsd/libxsd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SNE_DLL;GIDEON_CS_DLL;GIDEON_CS_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DataTablePCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>xerces-c_3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SNE_DEPENDENT_DIR)/xerces-c/lib/$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>../../Lib/$(Platform)/$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Yldatatable %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../vendorsrc;../../vendorsrc/xsd/libxsd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>XERCES_STATIC_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DataTablePCH.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>xerces-c_static_3D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SNE_DEPENDENT_DIR)/xerces-c/lib/$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Yldatatable %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../vendorsrc;../../vendorsrc/xsd/libxsd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>XERCES_STATIC_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DataTablePCH.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>xerces-c_static_3D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SNE_DEPENDENT_DIR)/xerces-c/lib/$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Yldatatable %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../vendorsrc;../../vendorsrc/xsd/libxsd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>XERCES_STATIC_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DataTablePCH.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>xerces-c_static_3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SNE_DEPENDENT_DIR)/xerces-c/lib/$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Yldatatable %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../vendorsrc;../../vendorsrc/xsd/libxsd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>XERCES_STATIC_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DataTablePCH.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>xerces-c_static_3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SNE_DEPENDENT_DIR)/xerces-c/lib/$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\achievement_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\action_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\building_guard_sell_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\building_guard_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\character_default_item_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\character_default_skill_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\character_status_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\character_title_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\devildom_gate_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\dominion_region_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\function_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\gem_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\guild_level_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\guild_skill_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\item_active_skill_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\item_drop_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\item_option_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\item_suffix_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\npc_active_skill_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\npc_buy_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\npc_talking_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\player_active_skill_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\player_passive_skill_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\quest_contents_mission_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\select_recipe_production_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\skill_effect_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\so_active_skill_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\world_drop_suffix_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\world_drop_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\world_event_invader_spawn_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\world_event_mission_spawn_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\world_event_mission_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\world_event_table.cxx" />
+    <ClCompile Include="..\..\src\datatable\AccessoryTable.cpp" />
+    <ClCompile Include="..\..\src\datatable\CharacterStatusTable.cpp" />
+    <ClCompile Include="..\..\src\datatable\DataTableFactory.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\src\datatable\DataTablePCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DataTablePCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DataTablePCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DataTablePCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DataTablePCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'">DataTablePCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'">DataTablePCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'">DataTablePCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'">DataTablePCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\src\datatable\EquipTable.cpp" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\accessory_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\anchor_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\arena_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\building_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\device_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\element_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\entity_path_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\equip_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\event_trigger_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\exp_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\faction_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\fragment_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\glider_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\harness_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\harvest_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\help_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\l10n_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\npc_formation_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\npc_sell_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\npc_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\position_spawn_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\property_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\quest_activation_mission_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\quest_item_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\quest_kill_mission_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\quest_obtain_mission_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\quest_probe_mission_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\quest_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\quest_transport_mission_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\random_dungeon_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\recipe_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\region_coordinates.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\region_spawn_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\region_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\reprocess_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\resources_production_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\shared_types.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\treasure_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\vehicle_table.cxx" />
+    <ClCompile Include="..\..\include\gideon\cs\datatable\template\world_map_table.cxx" />
+    <ClCompile Include="..\..\src\datatable\SkillTemplate.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\gideon\cs\datatable\AchievementTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ActionTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ApplyItemStatusFunction.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\BuildingGuardSellTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\BuildingGuardTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\CharacterDefaultItemTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\CharacterDefaultSkillTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\CharacterStatusTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\CharacterTitleTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\DevildomGateTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\DominionRegionTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\FunctionTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\GuildLevelTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\GuildSkillTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ItemActiveSkillTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ItemDropTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ItemOptionTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ItemSuffixTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\GemTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\NpcActiveSkillTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\NpcBuyTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\NpcTalkingTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\PlayerActiveSkillTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\PlayerPassiveSkillTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\QuestContentsMissionTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\SelectRecipeProductionTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\SkillCommonInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\SkillEffectTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\SOActiveSkillTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\achievement_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\action_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\building_guard_sell_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\building_guard_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\character_default_item_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\character_default_skill_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\character_status_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\character_title_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\devildom_gate_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\dominion_region_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\function_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\gem_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\guild_level_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\guild_skill_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\item_active_skill_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\item_drop_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\item_option_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\item_suffix_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\npc_active_skill_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\npc_buy_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\npc_talking_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\player_active_skill_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\player_passive_skill_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\quest_contents_mission_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\select_recipe_production_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\skill_effect_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\so_active_skill_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\world_drop_suffix_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\world_drop_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\world_event_invader_spawn_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\world_event_mission_spawn_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\world_event_mission_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\world_event_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\WorldDropSuffixTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\WorldDropTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\WorldEventInvaderSpawnTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\WorldEventMissionSpawnTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\WorldEventMissionTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\WorldEventTable.h" />
+    <ClInclude Include="..\..\src\datatable\AccessoryTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\AchievementTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\ActionTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\AnchorTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\ArenaTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\BuildingGuardSellTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\BuildingGuardTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\BuildingTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\CharacterDefaultItemTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\CharacterDefaultSkillTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\CharacterStatusTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\CharacterTitleTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\DataTablePCH.h" />
+    <ClInclude Include="..\..\src\datatable\DeviceTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\DevildomGateTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\DominionRegionTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\ElementTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\EntityPathTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\EquipTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\EventTriggerTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\ExpTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\FactionTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\FragmentTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\FunctionTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\GliderTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\GuildLevelTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\GuildSkillTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\HarnessTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\HarvestTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\HelpTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\ItemActiveSkillTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\ItemDropTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\ItemOptionTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\ItemSuffixTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\GemTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\L10nTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\NpcActiveSkillTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\NpcBuyTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\NpcFormationTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\NpcSellTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\NpcTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\NpcTalkingTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\PlayerActiveSkillTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\PlayerPassiveSkillTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\PositionSpawnTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\PropertyTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\QuestActivationTableMissionImpl.h" />
+    <ClInclude Include="..\..\src\datatable\QuestContentsMissionTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\QuestItemTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\QuestKillMissionTableImpl.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\QuestObtainMissionTable.h" />
+    <ClInclude Include="..\..\src\datatable\QuestObtainMissionTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\QuestProbeMissionTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\QuestTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\QuestTransportMissionTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\RandomDungeonTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\RecipeTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\RegionCoordinatesImpl.h" />
+    <ClInclude Include="..\..\src\datatable\RegionSpawnTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\RegionTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\ReprocessTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\ResourcesProductionTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\SelectRecipeProductionTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\SkillEffectTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\SOActiveSkillTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\TreasureTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\VehicleTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\WorldDropSuffixTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\WorldDropTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\WorldEventInvaderSpawnTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\WorldEventMissionSpawnTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\WorldEventMissionTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\WorldEventTableImpl.h" />
+    <ClInclude Include="..\..\src\datatable\WorldMapTableImpl.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\AccessoryTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\AnchorTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\AnchorTemplate.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ArenaTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\BuildingTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\DataTableFactory.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\DeviceTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\EffectApplyInfo.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ElementTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\EntityPathTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\EquipTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\EventTriggerTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ExpTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\FactionTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\FragmentTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\GliderTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\HarnessTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\HarvestTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\HelpTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\L10nTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\NpcFormationTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\NpcSellTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\NpcTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\PositionSpawnTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\PropertyTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\QuestActivationMissionTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\QuestItemTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\QuestKillMissionTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\QuestProbeMissionTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\QuestTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\QuestTransportMissionTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\RandomDungeonTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\RecipeTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\RegionCoordinates.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\RegionSpawnTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\RegionTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ReprocessTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\ResourcesProductionTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\SkillTemplate.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\SpawnTemplate.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\TreasureTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\VehicleTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\WorldMapTable.h" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\accessory_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\anchor_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\arena_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\building_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\device_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\element_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\entity_path_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\equip_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\event_trigger_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\exp_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\faction_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\fragment_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\glider_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\harness_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\harvest_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\help_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\l10n_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\npc_formation_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\npc_sell_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\npc_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\position_spawn_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\property_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\quest_activation_mission_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\quest_item_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\quest_kill_mission_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\quest_obtain_mission_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\quest_probe_mission_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\quest_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\quest_transport_mission_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\random_dungeon_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\recipe_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\region_coordinates.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\region_spawn_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\region_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\reprocess_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\resources_production_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\shared_types.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\treasure_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\vehicle_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\world_map_table.hxx" />
+    <ClInclude Include="..\..\include\gideon\cs\datatable\template\xml_schema.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\gideon\cs\datatable\template\accessory_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\achievement_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\action_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\anchor_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\arena_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\building_guard_sell_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\building_guard_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\building_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\character_default_item_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\character_default_skill_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\character_status_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\character_title_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\device_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\devildom_gate_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\dominion_region_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\element_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\entity_path_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\equip_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\event_trigger_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\exp_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\faction_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\fragment_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\function_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\gem_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\glider_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\guild_level_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\guild_skill_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\harness_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\harvest_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\help_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\item_active_skill_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\item_drop_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\item_option_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\item_suffix_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\l10n_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\npc_active_skill_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\npc_buy_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\npc_formation_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\npc_sell_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\npc_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\npc_talking_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\player_active_skill_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\player_passive_skill_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\position_spawn_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\property_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\quest_activation_mission_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\quest_contents_mission_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\quest_item_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\quest_kill_mission_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\quest_obtain_mission_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\quest_probe_mission_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\quest_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\quest_transport_mission_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\random_dungeon_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\recipe_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\region_coordinates.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\region_spawn_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\region_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\reprocess_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\resources_production_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\select_recipe_production_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\shared_types.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\skill_effect_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\so_active_skill_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\treasure_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\vehicle_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\world_drop_suffix_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\world_drop_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\world_event_invader_spawn_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\world_event_mission_spawn_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\world_event_mission_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\world_event_table.ixx" />
+    <None Include="..\..\include\gideon\cs\datatable\template\world_map_table.ixx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

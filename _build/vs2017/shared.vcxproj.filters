@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\common">
+      <UniqueIdentifier>{0e773c55-8fe7-44de-b035-4ab8269bb1bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\shared">
+      <UniqueIdentifier>{3a7a9073-12a2-4e3e-b469-064631b0320c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\shared\data">
+      <UniqueIdentifier>{14502adc-6e82-4fe1-819d-ce06c0dd5931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\shared\rpc">
+      <UniqueIdentifier>{43f31337-e5b5-4115-b0fa-d202238130c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\shared\rpc\detail">
+      <UniqueIdentifier>{a09addf9-9055-4de1-b63d-e2b5215e931a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\shared\rpc\player">
+      <UniqueIdentifier>{a41e18a4-6667-4209-8eb5-27c03ddcd1f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\gideon\cs\Common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\common\Macros.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\AccessoryInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\AccountId.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\AccountInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ActionBar.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\AnchorInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\AppearanceInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ArenaInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\AuctionInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\BankAccountInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\BindRecallInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\BuildingInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CastInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\Certificate.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ChannelInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ChaoInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CharacterInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\Chatting.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CheatInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\Code.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CooldownInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\Coordinate.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CreatureInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CreatureStates.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\DeviceInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\DominionInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\DungeonInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\EffectInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ElementInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\EmotionInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\EntityInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\EntityPathInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\EntityStatusInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\EquipmentInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ErrorCode.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ExpelReason.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\FactionInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\FragmentInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\GliderInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\GraveStoneInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\GuildInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\HarvestInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\InventoryInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ItemEffectInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ItemInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\LevelInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\MailInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\MercenaryInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\MesmerizationInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\Money.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\MonsterInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\NpcInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ObeliskInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ObjectInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\PlayerActionState.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\PlayerInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\QuestInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\Rate.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\RecipeInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\RegionInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ServerInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ServerType.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\SkillEffectInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\SkillInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\StaticObjectSkillInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\Time.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\TradeInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\TreasureInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\UnionEntityInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\UnionGraveStoneName.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\UserId.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\UserInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\VehicleInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\WorldInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ZoneInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\AccountRpc.h">
+      <Filter>include\shared\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\CommunityRpc.h">
+      <Filter>include\shared\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\PlayerRpc.h">
+      <Filter>include\shared\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\detail\LoginRpc.h">
+      <Filter>include\shared\rpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\ActionBarRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\AnchorRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\ArenaRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\AuctionRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\BotCommandRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\BuildingRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\CastingRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\ChaoRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\CheatRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\CreatureReviveRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\CreatureSocialRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\DeviceRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\DungeonRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\EffectRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\EmotionRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\EntityInterestAreaRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\EntityMovementRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\EntityQueryRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\GamePlayRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\GliderRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\GraveStoneRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\GuildRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\HarvestRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\InventoryRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\ItemRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\MailRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\NpcRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\OutsideInventoryRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\PartyRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\PropertyRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\QuestRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\RewardRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\SkillRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\StatsRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\TeleportRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\TradeRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\TreasureRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\VehicleRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\BuddyInfos.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\NpcTalkingInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\LootInvenItemInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\FieldDuelRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\DuelInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\BuildingGuardInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\PartyInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\WorldEventInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\WorldEventRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CharacterClass.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\GuildLogInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\GuildInventoryInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\VaultInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ItemScript.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\PlayerStatusInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\StatusInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\SkillCastableEquipItemTypeInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\EffectStatusInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\EntityActionRpc.h" />
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\ItemDropInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\GemInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CreateCharacterInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\SexType.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\EntityStatusRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CharacterTitleInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\AchievementInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\AchievementRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\rpc\player\CharacterTitleRpc.h">
+      <Filter>include\shared\rpc\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CraftInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\EnvironmentInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\FunctionItemInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CreatureStatusInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\StaticObjectStatusInfo.h">
+      <Filter>include\shared\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\cs\shared\data\CombatRatingInfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
